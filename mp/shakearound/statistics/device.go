@@ -1,13 +1,13 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://gopkg.in/chanxuehong/wechat.v1 for the canonical source repository
+// @link        https://github.com/changxuehong/wechat for the canonical source repository
 // @license     https://github.com/chanxuehong/wechat/blob/v1/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com), magicshui(shuiyuzhe@gmail.com), Harry Rong(harrykobe@gmail.com)
 
 package statistics
 
 import (
-	"gopkg.in/chanxuehong/wechat.v1/mp"
-	"gopkg.in/chanxuehong/wechat.v1/mp/shakearound/device"
+	"github.com/changxuehong/wechat/mp"
+	"github.com/changxuehong/wechat/mp/shakearound/device"
 )
 
 // 以设备为维度的数据统计接口

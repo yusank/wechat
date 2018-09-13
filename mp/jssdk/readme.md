@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/chanxuehong/wechat.v1/mp"
-	"gopkg.in/chanxuehong/wechat.v1/mp/jssdk"
+	"github.com/changxuehong/wechat/mp"
+	"github.com/changxuehong/wechat/mp/jssdk"
 )
 
 var AccessTokenServer = mp.NewDefaultAccessTokenServer("appid", "appsecret", nil)

@@ -1,5 +1,5 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://gopkg.in/chanxuehong/wechat.v1 for the canonical source repository
+// @link        https://github.com/changxuehong/wechat for the canonical source repository
 // @license     https://github.com/chanxuehong/wechat/blob/v1/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com)
 
@@ -144,7 +144,7 @@ type MixedMessage struct {
 	DeviceNo    string `xml:"DeviceNo"    json:"DeviceNo"`
 }
 
-// 和 gopkg.in/chanxuehong/wechat.v1/mp/shakearound.ChosenBeacon 一样, 同步修改
+// 和 github.com/changxuehong/wechat/mp/shakearound.ChosenBeacon 一样, 同步修改
 type ChosenBeacon struct {
 	UUID     string  `xml:"Uuid"     json:"Uuid"`
 	Major    int     `xml:"Major"    json:"Major"`
@@ -152,7 +152,7 @@ type ChosenBeacon struct {
 	Distance float64 `xml:"Distance" json:"Distance"`
 }
 
-// 和 gopkg.in/chanxuehong/wechat.v1/mp/shakearound.AroundBeacon 一样, 同步修改
+// 和 github.com/changxuehong/wechat/mp/shakearound.AroundBeacon 一样, 同步修改
 type AroundBeacon struct {
 	UUID     string  `xml:"Uuid"     json:"Uuid"`
 	Major    int     `xml:"Major"    json:"Major"`

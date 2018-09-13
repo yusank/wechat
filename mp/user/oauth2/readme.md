@@ -14,7 +14,7 @@ import (
 	"github.com/chanxuehong/rand"
 	"github.com/chanxuehong/session"
 	"github.com/chanxuehong/sid"
-	"gopkg.in/chanxuehong/wechat.v1/mp/user/oauth2"
+	"github.com/changxuehong/wechat/mp/user/oauth2"
 )
 
 var (

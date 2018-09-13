@@ -1,5 +1,5 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://gopkg.in/chanxuehong/wechat.v1 for the canonical source repository
+// @link        https://github.com/changxuehong/wechat for the canonical source repository
 // @license     https://github.com/chanxuehong/wechat/blob/v1/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com), magicshui(shuiyuzhe@gmail.com), Harry Rong(harrykobe@gmail.com)
 
@@ -8,7 +8,7 @@ package shakearound
 import (
 	"unsafe"
 
-	"gopkg.in/chanxuehong/wechat.v1/mp"
+	"github.com/changxuehong/wechat/mp"
 )
 
 const (
@@ -26,7 +26,7 @@ type UserShakeEvent struct {
 	AroundBeacons []AroundBeacon `xml:"AroundBeacons>AroundBeacon,omitempty" json:"AroundBeacons,omitempty"`
 }
 
-// 和 gopkg.in/chanxuehong/wechat.v1/mp.ChosenBeacon 一样, 同步修改
+// 和 github.com/changxuehong/wechat/mp.ChosenBeacon 一样, 同步修改
 type ChosenBeacon struct {
 	UUID     string  `xml:"Uuid"     json:"Uuid"`
 	Major    int     `xml:"Major"    json:"Major"`
@@ -34,7 +34,7 @@ type ChosenBeacon struct {
 	Distance float64 `xml:"Distance" json:"Distance"`
 }
 
-// 和 gopkg.in/chanxuehong/wechat.v1/mp.AroundBeacon 一样, 同步修改
+// 和 github.com/changxuehong/wechat/mp.AroundBeacon 一样, 同步修改
 type AroundBeacon struct {
 	UUID     string  `xml:"Uuid"     json:"Uuid"`
 	Major    int     `xml:"Major"    json:"Major"`

@@ -13,8 +13,8 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/chanxuehong/wechat.v1/mp"
-	"gopkg.in/chanxuehong/wechat.v1/mp/menu"
+	"github.com/changxuehong/wechat/mp"
+	"github.com/changxuehong/wechat/mp/menu"
 )
 
 var AccessTokenServer = mp.NewDefaultAccessTokenServer("appId", "appSecret", nil) // 一個應用只能有一個實例
@@ -48,10 +48,10 @@ import (
 	"log"
 	"net/http"
 
-	"gopkg.in/chanxuehong/wechat.v1/mp"
-	"gopkg.in/chanxuehong/wechat.v1/mp/message/request"
-	"gopkg.in/chanxuehong/wechat.v1/mp/message/response"
-	"gopkg.in/chanxuehong/wechat.v1/util"
+	"github.com/changxuehong/wechat/mp"
+	"github.com/changxuehong/wechat/mp/message/request"
+	"github.com/changxuehong/wechat/mp/message/response"
+	"github.com/changxuehong/wechat/util"
 )
 
 func ErrorHandler(w http.ResponseWriter, r *http.Request, err error) {
@@ -97,10 +97,10 @@ import (
 	"log"
 	"net/http"
 
-	"gopkg.in/chanxuehong/wechat.v1/mp"
-	"gopkg.in/chanxuehong/wechat.v1/mp/message/request"
-	"gopkg.in/chanxuehong/wechat.v1/mp/message/response"
-	"gopkg.in/chanxuehong/wechat.v1/util"
+	"github.com/changxuehong/wechat/mp"
+	"github.com/changxuehong/wechat/mp/message/request"
+	"github.com/changxuehong/wechat/mp/message/response"
+	"github.com/changxuehong/wechat/util"
 )
 
 func ErrorHandler(w http.ResponseWriter, r *http.Request, err error) {

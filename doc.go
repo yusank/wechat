@@ -1,2 +1,2 @@
-// https://gopkg.in/chanxuehong/wechat.v1
+// https://github.com/changxuehong/wechat
 package wechat
